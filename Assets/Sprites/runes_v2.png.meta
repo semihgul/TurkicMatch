@@ -1,0 +1,2754 @@
+fileFormatVersion: 2
+guid: fc24bd671211ea747967b448515f1eab
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3207103598492938958
+    second: lettestiles_v2t_0
+  - first:
+      213: -8491308198970048032
+    second: lettestiles_v2t_1
+  - first:
+      213: 5850956059217059759
+    second: lettestiles_v2t_2
+  - first:
+      213: -2065421145696471205
+    second: lettestiles_v2t_3
+  - first:
+      213: 1705520145808917329
+    second: lettestiles_v2t_4
+  - first:
+      213: 1618242732060697184
+    second: lettestiles_v2t_5
+  - first:
+      213: -4887700983739627431
+    second: lettestiles_v2t_6
+  - first:
+      213: -2735432591737305293
+    second: lettestiles_v2t_7
+  - first:
+      213: -4809300250961552154
+    second: lettestiles_v2t_8
+  - first:
+      213: 3090729708640790778
+    second: lettestiles_v2t_9
+  - first:
+      213: 5269040287727367944
+    second: lettestiles_v2t_10
+  - first:
+      213: -8289388811391733724
+    second: lettestiles_v2t_11
+  - first:
+      213: -6236661413735531929
+    second: lettestiles_v2t_12
+  - first:
+      213: 6320013502858789463
+    second: lettestiles_v2t_13
+  - first:
+      213: -2919700573900145655
+    second: lettestiles_v2t_14
+  - first:
+      213: 6190729761893351926
+    second: lettestiles_v2t_15
+  - first:
+      213: 2889983568501041835
+    second: lettestiles_v2t_16
+  - first:
+      213: -2346084680597041560
+    second: lettestiles_v2t_17
+  - first:
+      213: 4523526065027380185
+    second: lettestiles_v2t_18
+  - first:
+      213: -8539667146309373565
+    second: lettestiles_v2t_19
+  - first:
+      213: 7985843106787503015
+    second: lettestiles_v2t_20
+  - first:
+      213: 9086109731948455315
+    second: lettestiles_v2t_21
+  - first:
+      213: -2067688228849952838
+    second: lettestiles_v2t_22
+  - first:
+      213: 7985651162028598962
+    second: lettestiles_v2t_23
+  - first:
+      213: -6305825666150556728
+    second: lettestiles_v2t_24
+  - first:
+      213: 6908359008992235007
+    second: lettestiles_v2t_25
+  - first:
+      213: 3268255888385180632
+    second: lettestiles_v2t_26
+  - first:
+      213: 6643599978177244814
+    second: lettestiles_v2t_27
+  - first:
+      213: 2866134829754967834
+    second: lettestiles_v2t_28
+  - first:
+      213: 2155373074754663318
+    second: lettestiles_v2t_29
+  - first:
+      213: 4565108206352495926
+    second: lettestiles_v2t_30
+  - first:
+      213: -8634875220684771812
+    second: lettestiles_v2t_31
+  - first:
+      213: 3312060206827315847
+    second: lettestiles_v2t_32
+  - first:
+      213: -1417542802392577793
+    second: lettestiles_v2t_33
+  - first:
+      213: -1270090988663008203
+    second: lettestiles_v2t_34
+  - first:
+      213: 5882633338214281890
+    second: lettestiles_v2t_35
+  - first:
+      213: 8076345811708482489
+    second: lettestiles_v2t_36
+  - first:
+      213: 6821818221207542621
+    second: lettestiles_v2t_37
+  - first:
+      213: 8962995655310308929
+    second: lettestiles_v2t_38
+  - first:
+      213: -5778305653143587643
+    second: lettestiles_v2t_39
+  - first:
+      213: 4044181007986508202
+    second: lettestiles_v2t_40
+  - first:
+      213: -1115872805163407185
+    second: lettestiles_v2t_41
+  - first:
+      213: -6268787140028495094
+    second: lettestiles_v2t_42
+  - first:
+      213: -8325978595296838433
+    second: lettestiles_v2t_43
+  - first:
+      213: 8268425800302350269
+    second: lettestiles_v2t_44
+  - first:
+      213: -7028445979939506243
+    second: lettestiles_v2t_45
+  - first:
+      213: 191789581538845885
+    second: lettestiles_v2t_46
+  - first:
+      213: 474707220459863401
+    second: lettestiles_v2t_47
+  - first:
+      213: 1459844662193257406
+    second: lettestiles_v2t_48
+  - first:
+      213: 5225903083413551999
+    second: lettestiles_v2t_49
+  - first:
+      213: -3493387471422759336
+    second: lettestiles_v2t_50
+  - first:
+      213: 4792124033338540429
+    second: lettestiles_v2t_51
+  - first:
+      213: 5032613630756465988
+    second: lettestiles_v2t_52
+  - first:
+      213: -334824270675295477
+    second: lettestiles_v2t_53
+  - first:
+      213: 7593244808763597659
+    second: lettestiles_v2t_54
+  - first:
+      213: -1053886517594214994
+    second: lettestiles_v2t_55
+  - first:
+      213: 8223823109719639550
+    second: lettestiles_v2t_56
+  - first:
+      213: 5784232803917591948
+    second: lettestiles_v2t_57
+  - first:
+      213: 660795073282820405
+    second: lettestiles_v2t_58
+  - first:
+      213: 3201799721221887618
+    second: lettestiles_v2t_59
+  - first:
+      213: 1712906433808967215
+    second: lettestiles_v2t_60
+  - first:
+      213: -5070102136422052916
+    second: lettestiles_v2t_61
+  - first:
+      213: -7811892863347436133
+    second: lettestiles_v2t_62
+  - first:
+      213: -5458883343519842383
+    second: lettestiles_v2t_63
+  - first:
+      213: 6222426779253723389
+    second: lettestiles_v2t_64
+  - first:
+      213: -413767966855148057
+    second: lettestiles_v2t_65
+  - first:
+      213: 3634717258474531468
+    second: lettestiles_v2t_66
+  - first:
+      213: -8572747904873584272
+    second: lettestiles_v2t_67
+  - first:
+      213: -2670416490495819761
+    second: lettestiles_v2t_68
+  - first:
+      213: -2745876723744432024
+    second: lettestiles_v2t_69
+  - first:
+      213: -4482447933123374464
+    second: lettestiles_v2t_70
+  - first:
+      213: -3444858558676722574
+    second: lettestiles_v2t_71
+  - first:
+      213: -4216067277107038558
+    second: lettestiles_v2t_72
+  - first:
+      213: -3973244960525949928
+    second: lettestiles_v2t_73
+  - first:
+      213: -1054369539117627947
+    second: lettestiles_v2t_74
+  - first:
+      213: -4109864047174744824
+    second: lettestiles_v2t_75
+  - first:
+      213: -8758736826505638769
+    second: lettestiles_v2t_76
+  - first:
+      213: 1997926535829558204
+    second: lettestiles_v2t_77
+  - first:
+      213: 530792332755245863
+    second: lettestiles_v2t_78
+  - first:
+      213: 7230325637141639427
+    second: lettestiles_v2t_79
+  - first:
+      213: 2573725726498302864
+    second: lettestiles_v2t_80
+  - first:
+      213: 38166650160787981
+    second: lettestiles_v2t_81
+  - first:
+      213: -2995640344743899226
+    second: lettestiles_v2t_82
+  - first:
+      213: -2719585304390691462
+    second: lettestiles_v2t_83
+  - first:
+      213: -4386908339137579310
+    second: lettestiles_v2t_84
+  - first:
+      213: 3875876342489967538
+    second: lettestiles_v2t_85
+  - first:
+      213: -3213016867678570400
+    second: lettestiles_v2t_86
+  - first:
+      213: -5574320964424139018
+    second: lettestiles_v2t_87
+  - first:
+      213: -2969859769568708139
+    second: lettestiles_v2t_88
+  - first:
+      213: 8288553332302367807
+    second: lettestiles_v2t_89
+  - first:
+      213: 2359540078725624458
+    second: lettestiles_v2t_90
+  - first:
+      213: 4337632324257611270
+    second: lettestiles_v2t_91
+  - first:
+      213: 3761882397452772453
+    second: lettestiles_v2t_92
+  - first:
+      213: 6899734249259209669
+    second: lettestiles_v2t_93
+  - first:
+      213: 710063606396986444
+    second: lettestiles_v2t_94
+  - first:
+      213: 983871532796378408
+    second: lettestiles_v2t_95
+  - first:
+      213: 705135039688152247
+    second: lettestiles_v2t_96
+  - first:
+      213: -6195857508307878055
+    second: lettestiles_v2t_97
+  - first:
+      213: -7108993241927127631
+    second: lettestiles_v2t_98
+  - first:
+      213: -8375796150004116955
+    second: lettestiles_v2t_99
+  - first:
+      213: -7117680701232628214
+    second: lettestiles_v2t_100
+  - first:
+      213: -2789701960309932253
+    second: lettestiles_v2t_101
+  - first:
+      213: -2836821407629909090
+    second: lettestiles_v2t_102
+  - first:
+      213: -5390404268275251758
+    second: lettestiles_v2t_103
+  - first:
+      213: 5870483487922793639
+    second: lettestiles_v2t_104
+  - first:
+      213: -7142372923659341660
+    second: lettestiles_v2t_105
+  - first:
+      213: 2468770080972132034
+    second: lettestiles_v2t_106
+  - first:
+      213: -175008331159569671
+    second: lettestiles_v2t_107
+  - first:
+      213: -6675160365538602808
+    second: lettestiles_v2t_108
+  - first:
+      213: -3403535895339630371
+    second: lettestiles_v2t_109
+  - first:
+      213: 3109392106212357760
+    second: lettestiles_v2t_110
+  - first:
+      213: 9084719995627774811
+    second: lettestiles_v2t_111
+  - first:
+      213: -2285588725001438131
+    second: lettestiles_v2t_112
+  - first:
+      213: -4082073716091704483
+    second: lettestiles_v2t_113
+  - first:
+      213: -6295929890224687297
+    second: lettestiles_v2t_114
+  - first:
+      213: 8892220413197147671
+    second: lettestiles_v2t_115
+  - first:
+      213: 5919554306395137645
+    second: lettestiles_v2t_116
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: lettestiles_v2t_0
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 912
+        width: 24
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23d83f5e4441e73d0800000000000000
+      internalID: -3207103598492938958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lettestiles_v2t_1
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 915
+        width: 29
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e147029e20d82a80800000000000000
+      internalID: -8491308198970048032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lettestiles_v2t_2
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 915
+        width: 32
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: faf5d024985c23150800000000000000
+      internalID: 5850956059217059759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lettestiles_v2t_3
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 915
+        width: 28
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b577e2b39662653e0800000000000000
+      internalID: -2065421145696471205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lettestiles_v2t_4
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 915
+        width: 39
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 153863059893ba710800000000000000
+      internalID: 1705520145808917329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lettestiles_v2t_5
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 915
+        width: 46
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 062e5d4e037257610800000000000000
+      internalID: 1618242732060697184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lettestiles_v2t_6
+      rect:
+        serializedVersion: 2
+        x: 737
+        y: 915
+        width: 29
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9584fd7f9d56b2cb0800000000000000
+      internalID: -4887700983739627431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lettestiles_v2t_7
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 932
+        width: 31
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 337c87efc8ac90ad0800000000000000
+      internalID: -2735432591737305293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lettestiles_v2t_8
+      rect:
+        serializedVersion: 2
+        x: 849
+        y: 914
+        width: 28
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ec5d3b07eee14db0800000000000000
+      internalID: -4809300250961552154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lettestiles_v2t_9
+      rect:
+        serializedVersion: 2
+        x: 942
+        y: 916
+        width: 28
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af8e74c6b4a74ea20800000000000000
+      internalID: 3090729708640790778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lettestiles_v2t_10
+      rect:
+        serializedVersion: 2
+        x: 1043
+        y: 916
+        width: 41
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8073631a9346f1940800000000000000
+      internalID: 5269040287727367944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lettestiles_v2t_11
+      rect:
+        serializedVersion: 2
+        x: 1140
+        y: 916
+        width: 49
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 420f5eb8bcc26fc80800000000000000
+      internalID: -8289388811391733724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lettestiles_v2t_12
+      rect:
+        serializedVersion: 2
+        x: 1251
+        y: 915
+        width: 28
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76a78e9cc7de279a0800000000000000
+      internalID: -6236661413735531929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lettestiles_v2t_13
+      rect:
+        serializedVersion: 2
+        x: 1342
+        y: 915
+        width: 26
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7520295cbc235b750800000000000000
+      internalID: 6320013502858789463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lettestiles_v2t_14
+      rect:
+        serializedVersion: 2
+        x: 1435
+        y: 915
+        width: 21
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90c7d2a1cc32b77d0800000000000000
+      internalID: -2919700573900145655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lettestiles_v2t_15
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 809
+        width: 27
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f187162be3e9e550800000000000000
+      internalID: 6190729761893351926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lettestiles_v2t_16
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 809
+        width: 39
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: baa68376eb84b1820800000000000000
+      internalID: 2889983568501041835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lettestiles_v2t_17
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 812
+        width: 34
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86e0700c968017fd0800000000000000
+      internalID: -2346084680597041560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lettestiles_v2t_18
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 815
+        width: 31
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d37d2e4dfac6ce30800000000000000
+      internalID: 4523526065027380185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lettestiles_v2t_19
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 812
+        width: 42
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 381f72cb9f10d7980800000000000000
+      internalID: -8539667146309373565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lettestiles_v2t_20
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 812
+        width: 24
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ab221caef963de60800000000000000
+      internalID: 7985843106787503015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lettestiles_v2t_21
+      rect:
+        serializedVersion: 2
+        x: 731
+        y: 811
+        width: 30
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 395e10339a8581e70800000000000000
+      internalID: 9086109731948455315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lettestiles_v2t_22
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 811
+        width: 26
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab7542dc2881e43e0800000000000000
+      internalID: -2067688228849952838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lettestiles_v2t_23
+      rect:
+        serializedVersion: 2
+        x: 945
+        y: 813
+        width: 25
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b666ec0c6bb2de60800000000000000
+      internalID: 7985651162028598962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lettestiles_v2t_24
+      rect:
+        serializedVersion: 2
+        x: 1049
+        y: 813
+        width: 26
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8cb1e8167f43d78a0800000000000000
+      internalID: -6305825666150556728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lettestiles_v2t_25
+      rect:
+        serializedVersion: 2
+        x: 1156
+        y: 812
+        width: 29
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffd0ad7aaeb6fdf50800000000000000
+      internalID: 6908359008992235007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lettestiles_v2t_26
+      rect:
+        serializedVersion: 2
+        x: 1246
+        y: 811
+        width: 31
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d3074e1a6d2b5d20800000000000000
+      internalID: 3268255888385180632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lettestiles_v2t_27
+      rect:
+        serializedVersion: 2
+        x: 1331
+        y: 812
+        width: 39
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8e2c091bfec23c50800000000000000
+      internalID: 6643599978177244814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lettestiles_v2t_28
+      rect:
+        serializedVersion: 2
+        x: 1426
+        y: 812
+        width: 33
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a176be5317e86c720800000000000000
+      internalID: 2866134829754967834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lettestiles_v2t_29
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 710
+        width: 32
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 693713f446c69ed10800000000000000
+      internalID: 2155373074754663318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lettestiles_v2t_30
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 707
+        width: 39
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6357cd80ab58a5f30800000000000000
+      internalID: 4565108206352495926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lettestiles_v2t_31
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 707
+        width: 28
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1ee24f7cb2ca2880800000000000000
+      internalID: -8634875220684771812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lettestiles_v2t_32
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 707
+        width: 40
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78226a6c53dc6fd20800000000000000
+      internalID: 3312060206827315847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lettestiles_v2t_33
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 708
+        width: 32
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff88a79e450e35ce0800000000000000
+      internalID: -1417542802392577793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lettestiles_v2t_34
+      rect:
+        serializedVersion: 2
+        x: 622
+        y: 708
+        width: 25
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 534115c99fabf5ee0800000000000000
+      internalID: -1270090988663008203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lettestiles_v2t_35
+      rect:
+        serializedVersion: 2
+        x: 729
+        y: 707
+        width: 26
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a2f1248adf43a150800000000000000
+      internalID: 5882633338214281890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lettestiles_v2t_36
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 707
+        width: 28
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b31916b9b1f41070800000000000000
+      internalID: 8076345811708482489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lettestiles_v2t_37
+      rect:
+        serializedVersion: 2
+        x: 942
+        y: 709
+        width: 32
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5bdc555787fbae50800000000000000
+      internalID: 6821818221207542621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lettestiles_v2t_38
+      rect:
+        serializedVersion: 2
+        x: 1035
+        y: 712
+        width: 50
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 146f32e7f05f26c70800000000000000
+      internalID: 8962995655310308929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lettestiles_v2t_39
+      rect:
+        serializedVersion: 2
+        x: 1140
+        y: 715
+        width: 46
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c4bebc8f955fcfa0800000000000000
+      internalID: -5778305653143587643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lettestiles_v2t_40
+      rect:
+        serializedVersion: 2
+        x: 1242
+        y: 709
+        width: 42
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa1ca642331df1830800000000000000
+      internalID: 4044181007986508202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lettestiles_v2t_41
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 609
+        width: 31
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa867b9889f9380f0800000000000000
+      internalID: -1115872805163407185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lettestiles_v2t_42
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 612
+        width: 32
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0b80124f4bc009a0800000000000000
+      internalID: -6268787140028495094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lettestiles_v2t_43
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 610
+        width: 26
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdc73db949e247c80800000000000000
+      internalID: -8325978595296838433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lettestiles_v2t_44
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 609
+        width: 31
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbf42b615795fb270800000000000000
+      internalID: 8268425800302350269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lettestiles_v2t_45
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 609
+        width: 31
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db7feaa9e91f57e90800000000000000
+      internalID: -7028445979939506243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lettestiles_v2t_46
+      rect:
+        serializedVersion: 2
+        x: 622
+        y: 610
+        width: 31
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db46e37bb9f59a200800000000000000
+      internalID: 191789581538845885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lettestiles_v2t_47
+      rect:
+        serializedVersion: 2
+        x: 718
+        y: 610
+        width: 52
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96db2dfa3bf769600800000000000000
+      internalID: 474707220459863401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lettestiles_v2t_48
+      rect:
+        serializedVersion: 2
+        x: 828
+        y: 610
+        width: 55
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebb77455cf8624410800000000000000
+      internalID: 1459844662193257406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lettestiles_v2t_49
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 465
+        width: 96
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7bbb759a23268840800000000000000
+      internalID: 5225903083413551999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lettestiles_v2t_50
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 464
+        width: 97
+        height: 103
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85edb0f7a9ef48fc0800000000000000
+      internalID: -3493387471422759336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lettestiles_v2t_51
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 467
+        width: 94
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8181c62b6b018240800000000000000
+      internalID: 4792124033338540429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lettestiles_v2t_52
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 464
+        width: 107
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44d2709ee6f67d540800000000000000
+      internalID: 5032613630756465988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lettestiles_v2t_53
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 465
+        width: 97
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b03483c89177a5bf0800000000000000
+      internalID: -334824270675295477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lettestiles_v2t_55
+      rect:
+        serializedVersion: 2
+        x: 658
+        y: 464
+        width: 99
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 2, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ead2935cbc7df51f0800000000000000
+      internalID: -1053886517594214994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lettestiles_v2t_56
+      rect:
+        serializedVersion: 2
+        x: 787
+        y: 469
+        width: 91
+        height: 97
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef5cc7eeb83e02270800000000000000
+      internalID: 8223823109719639550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lettestiles_v2t_57
+      rect:
+        serializedVersion: 2
+        x: 907
+        y: 469
+        width: 91
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c857ba7c619b54050800000000000000
+      internalID: 5784232803917591948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lettestiles_v2t_58
+      rect:
+        serializedVersion: 2
+        x: 1043
+        y: 471
+        width: 91
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 539c95c3e9d9b2900800000000000000
+      internalID: 660795073282820405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lettestiles_v2t_59
+      rect:
+        serializedVersion: 2
+        x: 1169
+        y: 468
+        width: 89
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2861061f1e31f6c20800000000000000
+      internalID: 3201799721221887618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lettestiles_v2t_60
+      rect:
+        serializedVersion: 2
+        x: 1287
+        y: 465
+        width: 87
+        height: 103
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f262aa0835775c710800000000000000
+      internalID: 1712906433808967215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lettestiles_v2t_62
+      rect:
+        serializedVersion: 2
+        x: 1401
+        y: 472
+        width: 84
+        height: 89
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9554c874d4969390800000000000000
+      internalID: -7811892863347436133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lettestiles_v2t_72
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 347
+        width: 82
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a6f2ee26258d75c0800000000000000
+      internalID: -4216067277107038558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lettestiles_v2t_73
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 349
+        width: 77
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8146d3272c23cd8c0800000000000000
+      internalID: -3973244960525949928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lettestiles_v2t_74
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 345
+        width: 79
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d5c6ee8d702e51f0800000000000000
+      internalID: -1054369539117627947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lettestiles_v2t_75
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 342
+        width: 102
+        height: 87
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80500019c64d6f6c0800000000000000
+      internalID: -4109864047174744824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lettestiles_v2t_76
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 342
+        width: 92
+        height: 88
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8ccff61347b27680800000000000000
+      internalID: -8758736826505638769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lettestiles_v2t_77
+      rect:
+        serializedVersion: 2
+        x: 673
+        y: 352
+        width: 85
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb3927f499f0abb10800000000000000
+      internalID: 1997926535829558204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lettestiles_v2t_78
+      rect:
+        serializedVersion: 2
+        x: 796
+        y: 342
+        width: 93
+        height: 89
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72b906b70d0cd5700800000000000000
+      internalID: 530792332755245863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lettestiles_v2t_79
+      rect:
+        serializedVersion: 2
+        x: 921
+        y: 350
+        width: 93
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3013a3cebd6475460800000000000000
+      internalID: 7230325637141639427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lettestiles_v2t_80
+      rect:
+        serializedVersion: 2
+        x: 1049
+        y: 353
+        width: 84
+        height: 78
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09b273d79e5b7b320800000000000000
+      internalID: 2573725726498302864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lettestiles_v2t_81
+      rect:
+        serializedVersion: 2
+        x: 1168
+        y: 357
+        width: 87
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d02b919bd58978000800000000000000
+      internalID: 38166650160787981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lettestiles_v2t_82
+      rect:
+        serializedVersion: 2
+        x: 1288
+        y: 348
+        width: 86
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6af06b06af85d66d0800000000000000
+      internalID: -2995640344743899226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lettestiles_v2t_83
+      rect:
+        serializedVersion: 2
+        x: 1403
+        y: 341
+        width: 87
+        height: 89
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a759b6b1397124ad0800000000000000
+      internalID: -2719585304390691462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lettestiles_v2t_87
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 200
+        width: 83
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fe7c7bed9804a2b0800000000000000
+      internalID: -5574320964424139018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lettestiles_v2t_89
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 209
+        width: 78
+        height: 87
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3c43c1575bd60370800000000000000
+      internalID: 8288553332302367807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lettestiles_v2t_90
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 196
+        width: 92
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a82fcb14335ceb020800000000000000
+      internalID: 2359540078725624458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lettestiles_v2t_91
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 205
+        width: 98
+        height: 88
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60e70adfd9d523c30800000000000000
+      internalID: 4337632324257611270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lettestiles_v2t_92
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 201
+        width: 85
+        height: 89
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 564a7f2fb14e43430800000000000000
+      internalID: 3761882397452772453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lettestiles_v2t_93
+      rect:
+        serializedVersion: 2
+        x: 795
+        y: 203
+        width: 95
+        height: 91
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c311bb4eb7c0cf50800000000000000
+      internalID: 6899734249259209669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lettestiles_v2t_94
+      rect:
+        serializedVersion: 2
+        x: 921
+        y: 205
+        width: 86
+        height: 89
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c44a9338617aad900800000000000000
+      internalID: 710063606396986444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lettestiles_v2t_96
+      rect:
+        serializedVersion: 2
+        x: 1044
+        y: 202
+        width: 96
+        height: 93
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b41b47259429c900800000000000000
+      internalID: 705135039688152247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lettestiles_v2t_97
+      rect:
+        serializedVersion: 2
+        x: 1169
+        y: 204
+        width: 85
+        height: 89
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95f3f5a5c64e30aa0800000000000000
+      internalID: -6195857508307878055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lettestiles_v2t_98
+      rect:
+        serializedVersion: 2
+        x: 1289
+        y: 204
+        width: 85
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bde740cf48c75d90800000000000000
+      internalID: -7108993241927127631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lettestiles_v2t_99
+      rect:
+        serializedVersion: 2
+        x: 1411
+        y: 215
+        width: 73
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5229be747c133cb80800000000000000
+      internalID: -8375796150004116955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lettestiles_v2t_101
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 201
+        width: 89
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32ff38af8dcf849d0800000000000000
+      internalID: -2789701960309932253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lettestiles_v2t_104
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 56
+        width: 81
+        height: 83
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ac2f6d01a5287150800000000000000
+      internalID: 5870483487922793639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lettestiles_v2t_105
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 52
+        width: 93
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a0bae7faa131ec90800000000000000
+      internalID: -7142372923659341660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lettestiles_v2t_106
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 60
+        width: 86
+        height: 91
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cec47cfe45d24220800000000000000
+      internalID: 2468770080972132034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lettestiles_v2t_107
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 56
+        width: 92
+        height: 87
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9faff7c99de329df0800000000000000
+      internalID: -175008331159569671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lettestiles_v2t_108
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 59
+        width: 80
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c01e4993011d53a0800000000000000
+      internalID: -6675160365538602808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lettestiles_v2t_109
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 59
+        width: 92
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd08df9c22634c0d0800000000000000
+      internalID: -3403535895339630371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lettestiles_v2t_110
+      rect:
+        serializedVersion: 2
+        x: 747
+        y: 58
+        width: 69
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 086f03675a7c62b20800000000000000
+      internalID: 3109392106212357760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lettestiles_v2t_111
+      rect:
+        serializedVersion: 2
+        x: 858
+        y: 57
+        width: 65
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b53284ff3b8631e70800000000000000
+      internalID: 9084719995627774811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lettestiles_v2t_112
+      rect:
+        serializedVersion: 2
+        x: 962
+        y: 56
+        width: 75
+        height: 87
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4cb6a70a25f740e0800000000000000
+      internalID: -2285588725001438131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lettestiles_v2t_113
+      rect:
+        serializedVersion: 2
+        x: 1074
+        y: 64
+        width: 82
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5b256d359f8957c0800000000000000
+      internalID: -4082073716091704483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lettestiles_v2t_114
+      rect:
+        serializedVersion: 2
+        x: 1189
+        y: 62
+        width: 68
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f37b4624f1d50a8a0800000000000000
+      internalID: -6295929890224687297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lettestiles_v2t_115
+      rect:
+        serializedVersion: 2
+        x: 1303
+        y: 63
+        width: 65
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71ed7115a53876b70800000000000000
+      internalID: 8892220413197147671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lettestiles_v2t_116
+      rect:
+        serializedVersion: 2
+        x: 1419
+        y: 59
+        width: 65
+        height: 73
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d66e05d474b762250800000000000000
+      internalID: 5919554306395137645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: f9c9392bd7773de4f8862b079ba0cb96
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      lettestiles_v2t_0: -3207103598492938958
+      lettestiles_v2t_1: -8491308198970048032
+      lettestiles_v2t_10: 5269040287727367944
+      lettestiles_v2t_100: -7117680701232628214
+      lettestiles_v2t_101: -2789701960309932253
+      lettestiles_v2t_102: -2836821407629909090
+      lettestiles_v2t_103: -5390404268275251758
+      lettestiles_v2t_104: 5870483487922793639
+      lettestiles_v2t_105: -7142372923659341660
+      lettestiles_v2t_106: 2468770080972132034
+      lettestiles_v2t_107: -175008331159569671
+      lettestiles_v2t_108: -6675160365538602808
+      lettestiles_v2t_109: -3403535895339630371
+      lettestiles_v2t_11: -8289388811391733724
+      lettestiles_v2t_110: 3109392106212357760
+      lettestiles_v2t_111: 9084719995627774811
+      lettestiles_v2t_112: -2285588725001438131
+      lettestiles_v2t_113: -4082073716091704483
+      lettestiles_v2t_114: -6295929890224687297
+      lettestiles_v2t_115: 8892220413197147671
+      lettestiles_v2t_116: 5919554306395137645
+      lettestiles_v2t_12: -6236661413735531929
+      lettestiles_v2t_13: 6320013502858789463
+      lettestiles_v2t_14: -2919700573900145655
+      lettestiles_v2t_15: 6190729761893351926
+      lettestiles_v2t_16: 2889983568501041835
+      lettestiles_v2t_17: -2346084680597041560
+      lettestiles_v2t_18: 4523526065027380185
+      lettestiles_v2t_19: -8539667146309373565
+      lettestiles_v2t_2: 5850956059217059759
+      lettestiles_v2t_20: 7985843106787503015
+      lettestiles_v2t_21: 9086109731948455315
+      lettestiles_v2t_22: -2067688228849952838
+      lettestiles_v2t_23: 7985651162028598962
+      lettestiles_v2t_24: -6305825666150556728
+      lettestiles_v2t_25: 6908359008992235007
+      lettestiles_v2t_26: 3268255888385180632
+      lettestiles_v2t_27: 6643599978177244814
+      lettestiles_v2t_28: 2866134829754967834
+      lettestiles_v2t_29: 2155373074754663318
+      lettestiles_v2t_3: -2065421145696471205
+      lettestiles_v2t_30: 4565108206352495926
+      lettestiles_v2t_31: -8634875220684771812
+      lettestiles_v2t_32: 3312060206827315847
+      lettestiles_v2t_33: -1417542802392577793
+      lettestiles_v2t_34: -1270090988663008203
+      lettestiles_v2t_35: 5882633338214281890
+      lettestiles_v2t_36: 8076345811708482489
+      lettestiles_v2t_37: 6821818221207542621
+      lettestiles_v2t_38: 8962995655310308929
+      lettestiles_v2t_39: -5778305653143587643
+      lettestiles_v2t_4: 1705520145808917329
+      lettestiles_v2t_40: 4044181007986508202
+      lettestiles_v2t_41: -1115872805163407185
+      lettestiles_v2t_42: -6268787140028495094
+      lettestiles_v2t_43: -8325978595296838433
+      lettestiles_v2t_44: 8268425800302350269
+      lettestiles_v2t_45: -7028445979939506243
+      lettestiles_v2t_46: 191789581538845885
+      lettestiles_v2t_47: 474707220459863401
+      lettestiles_v2t_48: 1459844662193257406
+      lettestiles_v2t_49: 5225903083413551999
+      lettestiles_v2t_5: 1618242732060697184
+      lettestiles_v2t_50: -3493387471422759336
+      lettestiles_v2t_51: 4792124033338540429
+      lettestiles_v2t_52: 5032613630756465988
+      lettestiles_v2t_53: -334824270675295477
+      lettestiles_v2t_54: 7593244808763597659
+      lettestiles_v2t_55: -1053886517594214994
+      lettestiles_v2t_56: 8223823109719639550
+      lettestiles_v2t_57: 5784232803917591948
+      lettestiles_v2t_58: 660795073282820405
+      lettestiles_v2t_59: 3201799721221887618
+      lettestiles_v2t_6: -4887700983739627431
+      lettestiles_v2t_60: 1712906433808967215
+      lettestiles_v2t_61: -5070102136422052916
+      lettestiles_v2t_62: -7811892863347436133
+      lettestiles_v2t_63: -5458883343519842383
+      lettestiles_v2t_64: 6222426779253723389
+      lettestiles_v2t_65: -413767966855148057
+      lettestiles_v2t_66: 3634717258474531468
+      lettestiles_v2t_67: -8572747904873584272
+      lettestiles_v2t_68: -2670416490495819761
+      lettestiles_v2t_69: -2745876723744432024
+      lettestiles_v2t_7: -2735432591737305293
+      lettestiles_v2t_70: -4482447933123374464
+      lettestiles_v2t_71: -3444858558676722574
+      lettestiles_v2t_72: -4216067277107038558
+      lettestiles_v2t_73: -3973244960525949928
+      lettestiles_v2t_74: -1054369539117627947
+      lettestiles_v2t_75: -4109864047174744824
+      lettestiles_v2t_76: -8758736826505638769
+      lettestiles_v2t_77: 1997926535829558204
+      lettestiles_v2t_78: 530792332755245863
+      lettestiles_v2t_79: 7230325637141639427
+      lettestiles_v2t_8: -4809300250961552154
+      lettestiles_v2t_80: 2573725726498302864
+      lettestiles_v2t_81: 38166650160787981
+      lettestiles_v2t_82: -2995640344743899226
+      lettestiles_v2t_83: -2719585304390691462
+      lettestiles_v2t_84: -4386908339137579310
+      lettestiles_v2t_85: 3875876342489967538
+      lettestiles_v2t_86: -3213016867678570400
+      lettestiles_v2t_87: -5574320964424139018
+      lettestiles_v2t_88: -2969859769568708139
+      lettestiles_v2t_89: 8288553332302367807
+      lettestiles_v2t_9: 3090729708640790778
+      lettestiles_v2t_90: 2359540078725624458
+      lettestiles_v2t_91: 4337632324257611270
+      lettestiles_v2t_92: 3761882397452772453
+      lettestiles_v2t_93: 6899734249259209669
+      lettestiles_v2t_94: 710063606396986444
+      lettestiles_v2t_95: 983871532796378408
+      lettestiles_v2t_96: 705135039688152247
+      lettestiles_v2t_97: -6195857508307878055
+      lettestiles_v2t_98: -7108993241927127631
+      lettestiles_v2t_99: -8375796150004116955
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
