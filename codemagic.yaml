@@ -1,0 +1,116 @@
+# Codemagic CI/CD Configuration for Unity project
+# Reference: https://docs.codemagic.io/configuration-yaml/unity/
+
+workflows:
+  unity-ios:
+    name: Unity iOS IPA Build
+    max_build_duration: 120
+    instance_type: mac_mini_m2
+    environment:
+      unity: 6000.3.10f1
+      groups:
+        - unity_credentials # Define BUNDLE_ID, UNITY_SERIAL, UNITY_EMAIL, UNITY_PASSWORD, and App Store Connect API variables here
+      vars:
+        XCODE_SCHEME: "Unity-iPhone"
+        UNITY_IOS_DIR: "build/ios"
+    triggering:
+      events:
+        - push
+      branch_patterns:
+        - pattern: 'main'
+          include: true
+          source: true
+    scripts:
+      - name: Activate Unity License
+        script: |
+          $UNITY_HOME/Contents/MacOS/Unity \
+            -batchmode \
+            -quit \
+            -logFile \
+            -serial "$UNITY_SERIAL" \
+            -username "$UNITY_EMAIL" \
+            -password "$UNITY_PASSWORD"
+      - name: Build Unity iOS Xcode Project
+        script: |
+          $UNITY_HOME/Contents/MacOS/Unity \
+            -batchmode \
+            -quit \
+            -logFile \
+            -projectPath . \
+            -executeMethod BuildScript.BuildIOS \
+            -nographics \
+            -buildTarget iOS
+      - name: Initialize Keychain
+        script: |
+          keychain initialize
+      - name: Fetch Signing Files
+        script: |
+          app-store-connect fetch-signing-files "$BUNDLE_ID" --type IOS_APP_STORE --create
+      - name: Set up Xcode Code Signing
+        script: |
+          xcode-project use-profiles
+      - name: Build IPA
+        script: |
+          xcode-project build-ipa \
+            --project "$UNITY_IOS_DIR/Unity-iPhone.xcodeproj" \
+            --scheme "$XCODE_SCHEME"
+    artifacts:
+      - build/ios/ipa/*.ipa
+    publishing:
+      scripts:
+        - name: Deactivate Unity License
+          script: |
+            $UNITY_HOME/Contents/MacOS/Unity \
+              -quit \
+              -batchmode \
+              -returnlicense \
+              -username "$UNITY_EMAIL" \
+              -password "$UNITY_PASSWORD"
+
+  unity-android:
+    name: Unity Android Build
+    max_build_duration: 120
+    instance_type: mac_mini_m2
+    environment:
+      unity: 6000.3.10f1
+      groups:
+        - unity_credentials
+    triggering:
+      events:
+        - push
+      branch_patterns:
+        - pattern: 'main'
+          include: true
+          source: true
+    scripts:
+      - name: Activate Unity License
+        script: |
+          $UNITY_HOME/Contents/MacOS/Unity \
+            -batchmode \
+            -quit \
+            -logFile \
+            -serial "$UNITY_SERIAL" \
+            -username "$UNITY_EMAIL" \
+            -password "$UNITY_PASSWORD"
+      - name: Build Android APK
+        script: |
+          $UNITY_HOME/Contents/MacOS/Unity \
+            -batchmode \
+            -quit \
+            -logFile \
+            -projectPath . \
+            -executeMethod BuildScript.BuildAndroid \
+            -nographics \
+            -buildTarget Android
+    artifacts:
+      - build/android/*.apk
+    publishing:
+      scripts:
+        - name: Deactivate Unity License
+          script: |
+            $UNITY_HOME/Contents/MacOS/Unity \
+              -quit \
+              -batchmode \
+              -returnlicense \
+              -username "$UNITY_EMAIL" \
+              -password "$UNITY_PASSWORD"
