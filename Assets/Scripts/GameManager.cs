@@ -20,6 +20,24 @@ public class GameManager : MonoBehaviour
 
     private Coroutine hintCoroutine = null;
 
+    private void Awake()
+    {
+        // Disable VSync to allow custom frame rate target
+        QualitySettings.vSyncCount = 0;
+
+        // Query the device's native refresh rate if available, otherwise default to 60 FPS
+        double nativeRefreshRate = Screen.currentResolution.refreshRateRatio.value;
+        int targetFPS = nativeRefreshRate > 0 ? (int)System.Math.Round(nativeRefreshRate) : 60;
+
+        // Force a minimum target of 60 FPS for smooth mobile animations
+        if (targetFPS < 60)
+        {
+            targetFPS = 60;
+        }
+
+        Application.targetFrameRate = targetFPS;
+    }
+
     private void Start()
     {
         if (slotManager != null)
