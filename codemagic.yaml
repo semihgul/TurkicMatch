@@ -9,7 +9,7 @@ workflows:
     environment:
       unity: 6000.3.10f1
       groups:
-        - unity_credentials # Define BUNDLE_ID, UNITY_SERIAL, UNITY_EMAIL, UNITY_PASSWORD, and App Store Connect API variables here
+        - unity_credentials # Define BUNDLE_ID, and UNITY_LICENSE (or credentials/serial) here
       vars:
         XCODE_SCHEME: "Unity-iPhone"
         UNITY_IOS_DIR: "build/ios"
@@ -23,13 +23,23 @@ workflows:
     scripts:
       - name: Activate Unity License
         script: |
-          $UNITY_HOME/Contents/MacOS/Unity \
-            -batchmode \
-            -quit \
-            -logFile \
-            -serial "$UNITY_SERIAL" \
-            -username "$UNITY_EMAIL" \
-            -password "$UNITY_PASSWORD"
+          if [ -n "$UNITY_LICENSE" ]; then
+            echo "Activating using UNITY_LICENSE (.ulf file)..."
+            sudo mkdir -p "/Library/Application Support/Unity"
+            echo "$UNITY_LICENSE" | sudo tee "/Library/Application Support/Unity/Unity_lic.ulf"
+          elif [ -n "$UNITY_SERIAL" ]; then
+            echo "Activating using UNITY_SERIAL..."
+            $UNITY_HOME/Contents/MacOS/Unity \
+              -batchmode \
+              -quit \
+              -logFile \
+              -serial "$UNITY_SERIAL" \
+              -username "$UNITY_EMAIL" \
+              -password "$UNITY_PASSWORD"
+          else
+            echo "Error: Neither UNITY_LICENSE nor UNITY_SERIAL is defined!"
+            exit 1
+          fi
       - name: Build Unity iOS Xcode Project
         script: |
           $UNITY_HOME/Contents/MacOS/Unity \
@@ -60,12 +70,17 @@ workflows:
       scripts:
         - name: Deactivate Unity License
           script: |
-            $UNITY_HOME/Contents/MacOS/Unity \
-              -quit \
-              -batchmode \
-              -returnlicense \
-              -username "$UNITY_EMAIL" \
-              -password "$UNITY_PASSWORD"
+            if [ -n "$UNITY_SERIAL" ]; then
+              echo "Returning Unity Pro license..."
+              $UNITY_HOME/Contents/MacOS/Unity \
+                -quit \
+                -batchmode \
+                -returnlicense \
+                -username "$UNITY_EMAIL" \
+                -password "$UNITY_PASSWORD"
+            else
+              echo "Using Personal license, no license return necessary."
+            fi
 
   unity-android:
     name: Unity Android Build
@@ -85,13 +100,23 @@ workflows:
     scripts:
       - name: Activate Unity License
         script: |
-          $UNITY_HOME/Contents/MacOS/Unity \
-            -batchmode \
-            -quit \
-            -logFile \
-            -serial "$UNITY_SERIAL" \
-            -username "$UNITY_EMAIL" \
-            -password "$UNITY_PASSWORD"
+          if [ -n "$UNITY_LICENSE" ]; then
+            echo "Activating using UNITY_LICENSE (.ulf file)..."
+            sudo mkdir -p "/Library/Application Support/Unity"
+            echo "$UNITY_LICENSE" | sudo tee "/Library/Application Support/Unity/Unity_lic.ulf"
+          elif [ -n "$UNITY_SERIAL" ]; then
+            echo "Activating using UNITY_SERIAL..."
+            $UNITY_HOME/Contents/MacOS/Unity \
+              -batchmode \
+              -quit \
+              -logFile \
+              -serial "$UNITY_SERIAL" \
+              -username "$UNITY_EMAIL" \
+              -password "$UNITY_PASSWORD"
+          else
+            echo "Error: Neither UNITY_LICENSE nor UNITY_SERIAL is defined!"
+            exit 1
+          fi
       - name: Build Android APK
         script: |
           $UNITY_HOME/Contents/MacOS/Unity \
@@ -108,9 +133,31 @@ workflows:
       scripts:
         - name: Deactivate Unity License
           script: |
-            $UNITY_HOME/Contents/MacOS/Unity \
-              -quit \
-              -batchmode \
-              -returnlicense \
-              -username "$UNITY_EMAIL" \
-              -password "$UNITY_PASSWORD"
+            if [ -n "$UNITY_SERIAL" ]; then
+              echo "Returning Unity Pro license..."
+              $UNITY_HOME/Contents/MacOS/Unity \
+                -quit \
+                -batchmode \
+                -returnlicense \
+                -username "$UNITY_EMAIL" \
+                -password "$UNITY_PASSWORD"
+            else
+              echo "Using Personal license, no license return necessary."
+            fi
+
+  generate-license-request:
+    name: Generate Unity License Request (.alf)
+    max_build_duration: 10
+    instance_type: mac_mini_m2
+    environment:
+      unity: 6000.3.10f1
+    scripts:
+      - name: Generate ALF File
+        script: |
+          $UNITY_HOME/Contents/MacOS/Unity -batchmode -quit -logFile -createManualActivationFile
+      - name: Prepare Artifact
+        script: |
+          mkdir -p build
+          mv *.alf build/ || true
+    artifacts:
+      - build/*.alf
