@@ -117,7 +117,7 @@ public class GameManager : MonoBehaviour
         if (CurrentState != GameState.Playing) return;
         if (!tile.IsFree || tile.IsInSlot) return;
         if (slotManager == null) return;
-        if (slotManager.IsProcessing) return;
+        if (slotManager.IsFull) return;
 
         board.RemoveTile(tile);
 

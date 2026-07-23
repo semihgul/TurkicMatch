@@ -36,13 +36,12 @@ public class SlotManager : MonoBehaviour
     private MahjongTile[] slots;
     private Vector3[] slotPositions;
     private SpriteRenderer[] slotBgRenderers;
-    private bool isProcessing = false;
+    private HashSet<MahjongTile> pendingDestroy = new HashSet<MahjongTile>();
+    private Coroutine matchProcessCoroutine = null;
 
     public int FilledCount => CountFilled();
     public bool IsFull => CountFilled() >= slotCount;
-    public bool IsProcessing => isProcessing;
-
-
+    public bool IsProcessing => matchProcessCoroutine != null;
 
     private void Awake()
     {
@@ -86,7 +85,6 @@ public class SlotManager : MonoBehaviour
             slotBgRenderers[i] = sr;
         }
     }
-
 
     public void RefreshPositions()
     {
@@ -164,50 +162,56 @@ public class SlotManager : MonoBehaviour
         }
     }
 
-
     public bool TryAddTile(MahjongTile tile)
     {
-        if (IsFull || isProcessing) return false;
+        if (IsFull) return false;
 
-
-        var target = new List<MahjongTile>(slotCount);
-        for (int i = 0; i < slotCount; i++)
-            if (slots[i] != null) target.Add(slots[i]);
-        target.Add(tile);
-        target.Sort((a, b) => a.TileTypeId.CompareTo(b.TileTypeId));
-
-        for (int i = 0; i < slotCount; i++)
-            slots[i] = i < target.Count ? target[i] : null;
-
-        isProcessing = true;
-        StartCoroutine(AddTileRoutine(tile));
-        return true;
-    }
-
-
-    private IEnumerator AddTileRoutine(MahjongTile newTile)
-    {
+        List<MahjongTile> currentList = new List<MahjongTile>();
         for (int i = 0; i < slotCount; i++)
         {
-            if (slots[i] == null) continue;
-
-            if (slots[i] == newTile)
-                slots[i].EnterSlot(slotPositions[i], null);
-            else
-                slots[i].SlideTo(slotPositions[i], null);
+            if (slots[i] != null && !pendingDestroy.Contains(slots[i]))
+            {
+                currentList.Add(slots[i]);
+            }
         }
 
-        yield return new WaitForSeconds(moveDuration + 0.02f);
+        currentList.Add(tile);
+        currentList.Sort((a, b) => a.TileTypeId.CompareTo(b.TileTypeId));
 
-        yield return StartCoroutine(MatchRoutine());
+        for (int i = 0; i < slotCount; i++)
+        {
+            slots[i] = i < currentList.Count ? currentList[i] : null;
+        }
+
+        for (int i = 0; i < currentList.Count; i++)
+        {
+            MahjongTile t = currentList[i];
+            Vector3 targetPos = slotPositions[i];
+
+            if (t == tile)
+            {
+                t.EnterSlot(targetPos, null);
+            }
+            else
+            {
+                t.SlideTo(targetPos, null);
+            }
+        }
+
+        if (matchProcessCoroutine != null)
+        {
+            StopCoroutine(matchProcessCoroutine);
+        }
+        matchProcessCoroutine = StartCoroutine(ProcessMatchesRoutine());
+
+        return true;
     }
-
-
 
     public void ClearAll()
     {
         StopAllCoroutines();
-        isProcessing = false;
+        matchProcessCoroutine = null;
+        pendingDestroy.Clear();
 
         for (int i = 0; i < slotCount; i++)
         {
@@ -224,77 +228,77 @@ public class SlotManager : MonoBehaviour
         }
     }
 
-
-
-    private IEnumerator MatchRoutine()
+    private IEnumerator ProcessMatchesRoutine()
     {
-        bool anyMatch = true;
-        while (anyMatch)
+        yield return new WaitForSeconds(moveDuration);
+
+        bool checkAgain = true;
+        while (checkAgain)
         {
-            anyMatch = false;
+            checkAgain = false;
 
             for (int i = 0; i < slotCount - 1; i++)
             {
-                if (slots[i] != null &&
-                    slots[i + 1] != null &&
-                    slots[i].TileTypeId == slots[i + 1].TileTypeId)
+                MahjongTile t1 = slots[i];
+                MahjongTile t2 = slots[i + 1];
+
+                if (t1 != null && t2 != null &&
+                    !pendingDestroy.Contains(t1) && !pendingDestroy.Contains(t2) &&
+                    t1.TileTypeId == t2.TileTypeId)
                 {
+                    pendingDestroy.Add(t1);
+                    pendingDestroy.Add(t2);
 
-                    MahjongTile t1 = slots[i];
-                    MahjongTile t2 = slots[i + 1];
-
-                    slots[i] = null;
-                    slots[i + 1] = null;
+                    List<MahjongTile> remaining = new List<MahjongTile>();
+                    for (int k = 0; k < slotCount; k++)
+                    {
+                        if (slots[k] != null && !pendingDestroy.Contains(slots[k]))
+                        {
+                            remaining.Add(slots[k]);
+                        }
+                    }
+                    for (int k = 0; k < slotCount; k++)
+                    {
+                        slots[k] = k < remaining.Count ? remaining[k] : null;
+                    }
 
                     t1.AnimateMatchAndDestroy();
                     t2.AnimateMatchAndDestroy();
 
                     OnMatchCleared?.Invoke(200);
 
-                    anyMatch = true;
+                    for (int k = 0; k < remaining.Count; k++)
+                    {
+                        remaining[k].SlideTo(slotPositions[k], null);
+                    }
+
                     yield return new WaitForSeconds(matchPauseDuration);
 
-                    yield return StartCoroutine(CompactAndSlideRoutine());
+                    pendingDestroy.Remove(t1);
+                    pendingDestroy.Remove(t2);
+
+                    checkAgain = true;
                     break;
                 }
             }
         }
 
-        isProcessing = false;
-
+        matchProcessCoroutine = null;
 
         if (IsFull)
-            OnSlotsFullNoMatch?.Invoke();
-    }
-
-
-    private IEnumerator CompactAndSlideRoutine()
-    {
-        var filled = new List<MahjongTile>(slotCount);
-        for (int i = 0; i < slotCount; i++)
-            if (slots[i] != null) filled.Add(slots[i]);
-
-        for (int i = 0; i < slotCount; i++)
-            slots[i] = i < filled.Count ? filled[i] : null;
-
-        if (filled.Count == 0) yield break;
-
-        for (int i = 0; i < slotCount; i++)
         {
-            if (slots[i] != null)
-                slots[i].SlideTo(slotPositions[i], null);
+            OnSlotsFullNoMatch?.Invoke();
         }
-
-        yield return new WaitForSeconds(moveDuration + 0.02f);
     }
-
-
 
     private int CountFilled()
     {
         int count = 0;
         for (int i = 0; i < slotCount; i++)
-            if (slots[i] != null) count++;
+        {
+            if (slots[i] != null && !pendingDestroy.Contains(slots[i]))
+                count++;
+        }
         return count;
     }
 }

@@ -1,9 +1,18 @@
 using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 using UnityEngine.EventSystems;
 
-public class MahjongTile : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler, IPointerClickHandler
+public class MahjongTile : MonoBehaviour, 
+    IPointerEnterHandler, 
+    IPointerExitHandler, 
+    IPointerClickHandler,
+    IPointerDownHandler,
+    IPointerUpHandler,
+    IBeginDragHandler,
+    IDragHandler,
+    IEndDragHandler
 {
     [Header("UI & Visuals")]
     [SerializeField] private SpriteRenderer backgroundRenderer;
@@ -28,6 +37,12 @@ public class MahjongTile : MonoBehaviour, IPointerEnterHandler, IPointerExitHand
     private Vector3 originalLocalPos;
     private Color originalSymbolColor;
     private Sprite originalSprite;
+
+    private bool isDragging = false;
+    private Vector3 dragWorldOffset;
+    private Coroutine returnCoroutine;
+    private Coroutine flyCoroutine;
+    private Dictionary<Renderer, int> savedSortingOrders = new Dictionary<Renderer, int>();
 
     public SpriteRenderer SymbolRenderer
     {
@@ -101,9 +116,7 @@ public class MahjongTile : MonoBehaviour, IPointerEnterHandler, IPointerExitHand
             }
         }
 
-
         gameObject.name = $"Tile_{typeId}_{position.x}_{position.y}_{position.z}";
-
 
         originalLocalPos = transform.localPosition;
 
@@ -163,7 +176,7 @@ public class MahjongTile : MonoBehaviour, IPointerEnterHandler, IPointerExitHand
 
     public void OnPointerEnter(PointerEventData eventData)
     {
-        if (!IsFree || IsSelected) return;
+        if (!IsFree || IsSelected || isDragging || IsInSlot) return;
         isHovered = true;
 
         transform.localScale = Vector3.one * 1.05f;
@@ -172,47 +185,174 @@ public class MahjongTile : MonoBehaviour, IPointerEnterHandler, IPointerExitHand
 
     public void OnPointerExit(PointerEventData eventData)
     {
-        if (!IsFree) return;
+        if (!IsFree || IsInSlot) return;
         isHovered = false;
-        transform.localScale = Vector3.one;
+        if (!isDragging)
+        {
+            transform.localScale = Vector3.one;
+        }
         UpdateVisuals();
     }
 
     public void OnPointerClick(PointerEventData eventData)
     {
-        if (IsInSlot || !IsFree) return;
+        if (IsInSlot || !IsFree || isDragging || eventData.dragging) return;
         FindFirstObjectByType<GameManager>()?.OnTileSelected(this);
     }
 
+    public void OnPointerDown(PointerEventData eventData)
+    {
+        if (returnCoroutine != null)
+        {
+            StopCoroutine(returnCoroutine);
+            returnCoroutine = null;
+        }
+    }
 
+    public void OnPointerUp(PointerEventData eventData)
+    {
+    }
 
+    public void OnBeginDrag(PointerEventData eventData)
+    {
+        if (IsInSlot) return;
+
+        GameManager gm = FindFirstObjectByType<GameManager>();
+        if (gm != null && gm.CurrentState != GameManager.GameState.Playing) return;
+
+        isDragging = true;
+        isHovered = false;
+
+        SaveSortingOrders();
+        ElevateSortingOrders(3000);
+
+        dragWorldOffset = transform.position - GetPointerWorldPos(eventData);
+    }
+
+    public void OnDrag(PointerEventData eventData)
+    {
+        if (!isDragging || IsInSlot) return;
+
+        Vector3 pointerPos = GetPointerWorldPos(eventData);
+        Vector3 targetPos = pointerPos + dragWorldOffset;
+        targetPos.z = transform.position.z;
+        transform.position = targetPos;
+    }
+
+    public void OnEndDrag(PointerEventData eventData)
+    {
+        if (!isDragging) return;
+        isDragging = false;
+
+        if (IsInSlot) return;
+
+        if (returnCoroutine != null)
+        {
+            StopCoroutine(returnCoroutine);
+        }
+        returnCoroutine = StartCoroutine(ReturnToOriginalPositionCoroutine());
+    }
+
+    private IEnumerator ReturnToOriginalPositionCoroutine()
+    {
+        float duration = 0.18f;
+        float elapsed = 0f;
+        Vector3 startLocal = transform.localPosition;
+
+        while (elapsed < duration)
+        {
+            elapsed += Time.deltaTime;
+            float t = elapsed / duration;
+            t = 1f - (1f - t) * (1f - t);
+            transform.localPosition = Vector3.Lerp(startLocal, originalLocalPos, t);
+            yield return null;
+        }
+
+        transform.localPosition = originalLocalPos;
+        RestoreSortingOrders();
+        transform.localScale = Vector3.one;
+        UpdateVisuals();
+        returnCoroutine = null;
+    }
+
+    private void SaveSortingOrders()
+    {
+        savedSortingOrders.Clear();
+        foreach (var r in GetComponentsInChildren<Renderer>(true))
+        {
+            if (r != null)
+            {
+                savedSortingOrders[r] = r.sortingOrder;
+            }
+        }
+    }
+
+    private void ElevateSortingOrders(int offset)
+    {
+        foreach (var r in GetComponentsInChildren<Renderer>(true))
+        {
+            if (r != null && savedSortingOrders.TryGetValue(r, out int orig))
+            {
+                r.sortingOrder = orig + offset;
+            }
+        }
+    }
+
+    private void RestoreSortingOrders()
+    {
+        foreach (var kvp in savedSortingOrders)
+        {
+            if (kvp.Key != null)
+            {
+                kvp.Key.sortingOrder = kvp.Value;
+            }
+        }
+    }
+
+    private Vector3 GetPointerWorldPos(PointerEventData eventData)
+    {
+        Camera cam = eventData.pressEventCamera != null ? eventData.pressEventCamera : Camera.main;
+        if (cam == null) cam = Camera.main;
+
+        Ray ray = cam.ScreenPointToRay(eventData.position);
+        Plane boardPlane = new Plane(-cam.transform.forward, transform.position);
+        if (boardPlane.Raycast(ray, out float distance))
+        {
+            return ray.GetPoint(distance);
+        }
+        return transform.position;
+    }
 
     public void EnterSlot(Vector3 slotWorldPos, System.Action onComplete)
     {
         IsInSlot = true;
-
+        isDragging = false;
+        if (returnCoroutine != null)
+        {
+            StopCoroutine(returnCoroutine);
+            returnCoroutine = null;
+        }
 
         var col = GetComponent<Collider2D>();
         if (col != null) col.enabled = false;
-
 
         foreach (var sr in GetComponentsInChildren<SpriteRenderer>())
             sr.sortingOrder += 2000;
         var tmp = GetComponentInChildren<TMPro.TextMeshPro>();
         if (tmp != null) tmp.sortingOrder += 2000;
 
-
         if (backgroundRenderer != null) backgroundRenderer.color = normalColor;
         if (symbolText != null) symbolText.color = originalSymbolColor;
         if (symbolRenderer != null) symbolRenderer.color = tintSpriteWithCategoryColor ? originalSymbolColor : Color.white;
 
-        StartCoroutine(FlyToPositionCoroutine(slotWorldPos, onComplete));
+        if (flyCoroutine != null) StopCoroutine(flyCoroutine);
+        flyCoroutine = StartCoroutine(FlyToPositionCoroutine(slotWorldPos, onComplete));
     }
-
 
     public void SlideTo(Vector3 targetWorldPos, System.Action onComplete = null)
     {
-        StartCoroutine(FlyToPositionCoroutine(targetWorldPos, onComplete));
+        if (flyCoroutine != null) StopCoroutine(flyCoroutine);
+        flyCoroutine = StartCoroutine(FlyToPositionCoroutine(targetWorldPos, onComplete));
     }
 
     private IEnumerator FlyToPositionCoroutine(Vector3 target, System.Action onComplete)
@@ -230,9 +370,9 @@ public class MahjongTile : MonoBehaviour, IPointerEnterHandler, IPointerExitHand
         }
 
         transform.position = target;
+        flyCoroutine = null;
         onComplete?.Invoke();
     }
-
 
     public void AnimateMatchAndDestroy()
     {
@@ -244,7 +384,6 @@ public class MahjongTile : MonoBehaviour, IPointerEnterHandler, IPointerExitHand
         float duration = 0.2f;
         float elapsed = 0f;
         Vector3 startScale = transform.localScale;
-
 
         Collider2D col = GetComponent<Collider2D>();
         if (col != null) col.enabled = false;
@@ -261,3 +400,4 @@ public class MahjongTile : MonoBehaviour, IPointerEnterHandler, IPointerExitHand
         Destroy(gameObject);
     }
 }
+

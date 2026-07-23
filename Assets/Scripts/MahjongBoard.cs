@@ -44,8 +44,23 @@ public class MahjongBoard : MonoBehaviour
         activeTiles.Clear();
     }
 
+    private void Awake()
+    {
+        EnsureRaycaster();
+    }
+
+    private void EnsureRaycaster()
+    {
+        Camera mainCam = Camera.main;
+        if (mainCam != null && mainCam.GetComponent<UnityEngine.EventSystems.Physics2DRaycaster>() == null)
+        {
+            mainCam.gameObject.AddComponent<UnityEngine.EventSystems.Physics2DRaycaster>();
+        }
+    }
+
     public void GenerateBoard(LayoutData.Layout layout, int level)
     {
+        EnsureRaycaster();
         ClearBoard();
 
         List<Vector3Int> positions = layout.Positions;
